@@ -25,3 +25,9 @@ int main () {
     }
     return 0;
 }
+
+
+// This will print "1234Oh, 234Oh, 34Oh" 
+//Why?
+// icount starts at 0, each loop iteration begins with the switch statment incrementing icount by 1 (++icount).
+// none of the case statements have break statements so once a case is matched all the following case statements will execute including the default until icount is greater than 4. 
