@@ -12,7 +12,7 @@ int main () {
     while(icount < 3){
         switch(++icount){
             case 1: 
-                cout <<"1";
+                cout << "1";
             case 2: 
                 cout << "2";
             case 3: 
